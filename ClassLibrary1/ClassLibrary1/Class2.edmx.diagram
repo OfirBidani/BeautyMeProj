@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="dc62707a5f0c4024847899a51056de7d" Name="Diagram1">
+        <EntityTypeShape EntityType="igroup193_test1Model.Appointment" Width="1.5" PointX="0.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup193_test1Model.Appointment_can_give_treatment" Width="1.5" PointX="3" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup193_test1Model.Business" Width="1.5" PointX="1.5" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup193_test1Model.Business_can_give_treatment" Width="1.5" PointX="6" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup193_test1Model.Category" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup193_test1Model.Client" Width="1.5" PointX="0.75" PointY="24.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup193_test1Model.Future_Appointment" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup193_test1Model.Professional" Width="1.5" PointX="1.5" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup193_test1Model.Review_Business" Width="1.5" PointX="3.75" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup193_test1Model.Treatment_for_appointment" Width="1.5" PointX="3" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup193_test1Model.Treatment_of_category" Width="1.5" PointX="6" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup193_test1Model.Type_Treatment" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <AssociationConnector Association="igroup193_test1Model.FK__Appointme__Numbe__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_test1Model.FK__Appointme__Numbe__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_test1Model.FK__Appointme__Numbe__6C190EBB" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_test1Model.FK__Future_Ap__Numbe__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_test1Model.FK__Treatment__Numbe__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_test1Model.FK__Treatment__Numbe__75A278F5" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_test1Model.FK__Appointme__Type___4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_test1Model.FK__Appointme__Type___6D0D32F4" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_test1Model.FK__Business___Busin__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_test1Model.FK__Business___Busin__6FE99F9F" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_test1Model.FK__Business__Busine__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_test1Model.FK__Business__Profes__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_test1Model.FK__Business__Profes__6EF57B66" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_test1Model.FK__Review_Bu__Busin__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_test1Model.FK__Review_Bu__Busin__72C60C4A" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_test1Model.FK__Business___Categ__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_test1Model.FK__Business___Categ__70DDC3D8" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_test1Model.FK__Business___Type___49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_test1Model.FK__Business___Type___71D1E811" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_test1Model.FK__Treatment__Categ__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_test1Model.FK__Treatment__Categ__778AC167" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_test1Model.FK__Future_Ap__Clien__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_test1Model.FK__Future_Ap__Futur__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_test1Model.FK__Review_Bu__Clien__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_test1Model.FK__Review_Bu__Clien__73BA3083" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_test1Model.FK__Future_Ap__Type___5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_test1Model.FK__Review_Bu__Profe__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_test1Model.FK__Review_Bu__Profe__74AE54BC" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_test1Model.FK__Treatment__Type___4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_test1Model.FK__Treatment__Type___76969D2E" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_test1Model.FK__Treatment__Type___45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="igroup193_test1Model.FK__Treatment__Type___787EE5A0" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
