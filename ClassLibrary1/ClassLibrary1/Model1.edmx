@@ -64,6 +64,7 @@
           <Property Name="phone" Type="nvarchar" MaxLength="50" Nullable="false" />
           <Property Name="Email" Type="varchar(max)" Nullable="false" />
           <Property Name="Address" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="password" Type="varchar" MaxLength="10" Nullable="false" />
         </EntityType>
         <EntityType Name="Future_Appointment">
           <Key>
@@ -87,6 +88,7 @@
           <Property Name="phone" Type="nvarchar" MaxLength="50" Nullable="false" />
           <Property Name="Email" Type="nvarchar(max)" Nullable="false" />
           <Property Name="Address" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="password" Type="varchar" MaxLength="10" Nullable="false" />
         </EntityType>
         <EntityType Name="Review_Business">
           <Key>
@@ -748,6 +750,7 @@
           <Property Name="phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="password" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
           <NavigationProperty Name="Future_Appointment" Relationship="Self.FK__Future_Ap__Clien__571DF1D5" FromRole="Client" ToRole="Future_Appointment" />
           <NavigationProperty Name="Future_Appointment1" Relationship="Self.FK__Future_Ap__Futur__5629CD9C" FromRole="Client" ToRole="Future_Appointment" />
           <NavigationProperty Name="Review_Business" Relationship="Self.FK__Review_Bu__Clien__3A81B327" FromRole="Client" ToRole="Review_Business" />
@@ -779,6 +782,7 @@
           <Property Name="phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="password" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
           <NavigationProperty Name="Business" Relationship="Self.FK__Business__Busine__2E1BDC42" FromRole="Professional" ToRole="Business" />
           <NavigationProperty Name="Business1" Relationship="Self.FK__Business__Profes__2F10007B" FromRole="Professional" ToRole="Business" />
           <NavigationProperty Name="Business2" Relationship="Self.FK__Business__Profes__6EF57B66" FromRole="Professional" ToRole="Business" />
@@ -1234,7 +1238,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="igroup193_test1DBContext" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="igroup193_test1DBC" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Appointment" EntityType="Self.Appointment" />
           <EntitySet Name="Appointment_can_give_treatment" EntityType="Self.Appointment_can_give_treatment" />
           <EntitySet Name="Business" EntityType="Self.Business" />
@@ -1381,7 +1385,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="igroup193_test1ModelStoreContainer" CdmEntityContainer="igroup193_test1DBContext">
+        <EntityContainerMapping StorageEntityContainer="igroup193_test1ModelStoreContainer" CdmEntityContainer="igroup193_test1DBC">
           <EntitySetMapping Name="Appointment">
             <EntityTypeMapping TypeName="igroup193_test1Model.Appointment">
               <MappingFragment StoreEntitySet="Appointment">
@@ -1442,6 +1446,7 @@
                 <ScalarProperty Name="phone" ColumnName="phone" />
                 <ScalarProperty Name="Email" ColumnName="Email" />
                 <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="password" ColumnName="password" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
@@ -1467,6 +1472,7 @@
                 <ScalarProperty Name="phone" ColumnName="phone" />
                 <ScalarProperty Name="Email" ColumnName="Email" />
                 <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="password" ColumnName="password" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

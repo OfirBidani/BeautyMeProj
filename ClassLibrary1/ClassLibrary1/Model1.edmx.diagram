@@ -4,16 +4,16 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="dc62707a5f0c4024847899a51056de7d" Name="Diagram1">
-        <EntityTypeShape EntityType="igroup193_test1Model.Appointment" Width="1.5" PointX="0.75" PointY="2.25" IsExpanded="true" />
+      <Diagram DiagramId="8894fef1fe6e4379a75ea88da88b6c28" Name="Diagram1">
+        <EntityTypeShape EntityType="igroup193_test1Model.Appointment" Width="1.5" PointX="0.75" PointY="2.125" IsExpanded="true" />
         <EntityTypeShape EntityType="igroup193_test1Model.Appointment_can_give_treatment" Width="1.5" PointX="3" PointY="8.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="igroup193_test1Model.Business" Width="1.5" PointX="1.5" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup193_test1Model.Business" Width="1.5" PointX="1.5" PointY="15" IsExpanded="true" />
         <EntityTypeShape EntityType="igroup193_test1Model.Business_can_give_treatment" Width="1.5" PointX="6" PointY="8.25" IsExpanded="true" />
         <EntityTypeShape EntityType="igroup193_test1Model.Category" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="igroup193_test1Model.Client" Width="1.5" PointX="0.75" PointY="24.25" IsExpanded="true" />
         <EntityTypeShape EntityType="igroup193_test1Model.Future_Appointment" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="igroup193_test1Model.Professional" Width="1.5" PointX="1.5" PointY="20.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="igroup193_test1Model.Review_Business" Width="1.5" PointX="3.75" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup193_test1Model.Professional" Width="1.5" PointX="1.5" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="igroup193_test1Model.Review_Business" Width="1.5" PointX="3.75" PointY="19.5" IsExpanded="true" />
         <EntityTypeShape EntityType="igroup193_test1Model.Treatment_for_appointment" Width="1.5" PointX="3" PointY="11.75" IsExpanded="true" />
         <EntityTypeShape EntityType="igroup193_test1Model.Treatment_of_category" Width="1.5" PointX="6" PointY="4.75" IsExpanded="true" />
         <EntityTypeShape EntityType="igroup193_test1Model.Type_Treatment" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />

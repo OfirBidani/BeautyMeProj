@@ -13,10 +13,10 @@ namespace ClassLibrary1
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class igroup193_test1DBContext : DbContext
+    public partial class igroup193_test1DBC : DbContext
     {
-        public igroup193_test1DBContext()
-            : base("name=igroup193_test1DBContext")
+        public igroup193_test1DBC()
+            : base("name=igroup193_test1DBC")
         {
         }
     
